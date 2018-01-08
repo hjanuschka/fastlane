@@ -1,6 +1,8 @@
 require 'logger'
 require 'colored'
 require 'tty-spinner'
+# older ruby versions do not auto provide pathname
+require 'pathname'
 
 require_relative 'fastlane_folder'
 require_relative 'ui/ui'
